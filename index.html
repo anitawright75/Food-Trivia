@@ -1,31 +1,47 @@
-<DOCTYPE html>
+	<!DOCTYPE html>
+	<head>
+		<title>Are You Smarter Than Gordon Ramsay?</title>
+			<link rel="stylesheet" href="styles/main.css">
+	</head>
+		
+		<body>
+			<div id="wrapper">
+	
+				<header id="mainheader">
+				
+					<h1>Are You Smarter Than Gordon Ramsay?</h1>
+						<p>Think You're Smarter Than Gordon Ramsay? Well here's your chance to prove it! Click the "Start Quiz" button to find out!</p>	
+				</header>
+				
+				<div id="Question">
+					<button id="startButton">Start Quiz</button>
+				</div>
+						
+				<section id="main">	
 
-<html>
-  <head>
- 	 <link rel="stylesheet" type="text/css"  href="styles/main.css">
-    	<title>My test page</title>
-  	</head>
-	<div>
+					<column id="left">
 
-	<body>
-	<header>
-			
-	</header>
-  	
+        				<button id="answer1"></button>
+     	   
+        				<button id="answer2"></button>
+      				</column>
 
-   
-  	<h1>This is the first paragraph</h1>
-  		<p>some words some words some words</p>
+      
+      				<column id="right">
+        			
+        				<button id="answer3"></button>
 
+      					<button id="answer4"></button>
+      				</column>
 
-	</div>
+    			 </section> 
 
+			<footer>
+				<button id="progress">Question x of y</button>
+			</footer>
+		</div>
 
-	<script src="scripts/app.js"></script>
-
-
-	<footer> </footer>
-  	</body>
-  </html>
-																		
-																		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+		<script src="scripts/app.js"></script>
+	</body>
+	</html>
