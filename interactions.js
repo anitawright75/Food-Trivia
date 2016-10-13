@@ -19,6 +19,13 @@ var choice3 = document.getElementById("choice3");
 quiz.add(casu);
 quiz.add(bain);
 quiz.add(boule);
+quiz.add(maris);
+quiz.add(balut);
+quiz.add(noodles);
+quiz.add(coffee);
+quiz.add(conch);
+quiz.add(colcannon);
+quiz.add(creme);
 
 // Set initial values for when the page loads
 question.innerHTML = quiz.questions[0].question;
