@@ -16,6 +16,7 @@ body {
 	height: 100px;
 	margin-bottom: 30px;
 	text-align: center;
+	padding-top: 5px;
 }
 #startButton {
 	background-color: #4CAF50; 
@@ -38,45 +39,31 @@ body {
 	width: 1000px;
 	height: 350px;
 	margin: auto;
-	background-color: lightblue;
+	
 }	
 
 #left {
-  background-color: lightgray;
+
   color: white;
   height: 350px;
   width: 300px;
   float: left;
+
+    
         }
 
 
 #right {
-  background-color: lightgray;
+
   color: white;
   height: 350px;
   width: 300px;
   float: right;
 
+ 
+
 }
 	
-button {
- 
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    width: 250px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 10px;
-    
-}
-
-#startButton {
-
-	text-align: center;
-}
 #answer1 {
 	background-color: #4CAF50; 
     border: none;
@@ -107,6 +94,8 @@ button {
 
 }
 
+
+
 #answer3 {
 	background-color: #4CAF50; 
     border: none;
@@ -134,16 +123,33 @@ button {
     font-size: 16px;
     border-radius: 10px;
 
+}
 
+button {
+ 
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+#startButton {
+
+	text-align: center;
+	font-size: 16px;
 }
 
 footer {
 
 	text-align: center;
+	height: 250px;
 }
-
-
-
 
 
 
